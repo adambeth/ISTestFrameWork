@@ -1,0 +1,15 @@
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\ISAutoFrameWork.deps.json
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\ISAutoFrameWork.dll
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\bin\Debug\netcoreapp3.1\ISAutoFrameWork.pdb
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\obj\Debug\netcoreapp3.1\ISAutoFrameWork.csprojAssemblyReference.cache
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\obj\Debug\netcoreapp3.1\ISAutoFrameWork.AssemblyInfoInputs.cache
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\obj\Debug\netcoreapp3.1\ISAutoFrameWork.AssemblyInfo.cs
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\obj\Debug\netcoreapp3.1\ISAutoFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\obj\Debug\netcoreapp3.1\ISAutoFrameWork.dll
+C:\Users\ABethlehem\source\repos\ISTestProject\ISTestProject\obj\Debug\netcoreapp3.1\ISAutoFrameWork.pdb
