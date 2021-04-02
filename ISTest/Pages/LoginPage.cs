@@ -1,7 +1,5 @@
-﻿using System.Threading;
-using ISAutoFrameWork.Base;
+﻿using ISAutoFrameWork.Base;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
 
 namespace ISTest.Pages
 {
@@ -14,7 +12,7 @@ namespace ISTest.Pages
         {
             get
             {
-                return this._driver.FindElement(By.Id("UserName"));
+                return this.Driver.FindElement(By.Id("UserName"));
             }
 
         }
@@ -24,7 +22,7 @@ namespace ISTest.Pages
         {
             get
             {
-                return this._driver.FindElement(By.Id("Password"));
+                return this.Driver.FindElement(By.Id("Password"));
             }
         }
 
@@ -33,18 +31,31 @@ namespace ISTest.Pages
             get
 
             {
-                return this._driver.FindElement(By.CssSelector("input[value='Log in']"));
+                return this.Driver.FindElement(By.CssSelector("input[value='Log in']"));
             }
         }
 
-
-        public void login(string username, string password)
+        private IWebElement BtnEmployeeList
+        {
+            get
+            {
+                return this.Driver.FindElement(By.LinkText("Employee List"));
+            }
+        }
+        public EmployeePage login(string username, string password)
         {
 
             txtUserName.SendKeys(username);
             txtPassword.SendKeys(password);
             btnLogin.Click();
+            return new EmployeePage();
 
+        }
+
+        public EmployeePage ClickEmployeeList()
+        {
+            BtnEmployeeList.Click();
+            return new EmployeePage();
         }
     }
 }

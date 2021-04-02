@@ -6,7 +6,7 @@ using OpenQA.Selenium.Chrome;
 namespace ISTest
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTest1 : Base
     {
         string url = "http://eaapp.somee.com/";
 
@@ -22,11 +22,16 @@ namespace ISTest
         {
 
             HomePage homePage = new HomePage();
-            homePage.clickLogin();
-            LoginPage loginPage = new LoginPage();
-            loginPage.login("admin","password");
+            CurentPage = homePage.ClickLogin();
+            ((LoginPage) CurentPage).login("admin","password");
+            //((LoginPage) CurentPage).ClickEmployeeList();
+            CurentPage = ((LoginPage)CurentPage).ClickEmployeeList();
+            ((EmployeePage)CurentPage).SearchItem("Hello");
 
-            DriverContext.Driver.Quit();
+            //((EmployeePage)CurentPage).SearchItem("Test");
+
+
+            //DriverContext.Driver.Quit();
         }
     }
 }

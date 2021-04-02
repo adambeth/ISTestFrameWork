@@ -1,26 +1,21 @@
 ﻿using ISAutoFrameWork.Base;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
 
 namespace ISTest.Pages
 {
     public class HomePage : BasePage
     {
-        
-
-
-        private IWebElement lnkLogin
+        private IWebElement LnkLogin
         {
-            get { return this._driver.FindElement(By.LinkText("Login")); }
+            get { return this.Driver.FindElement(By.LinkText("Login")); }
         }
 
+    
 
-        public void clickLogin()
+        public LoginPage ClickLogin()
         {
-
-            lnkLogin.Click();
+            LnkLogin.Click();
+            return new LoginPage();
         }
-
-
     }
 }
