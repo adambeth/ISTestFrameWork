@@ -12,5 +12,7 @@ namespace ISAutoFrameWork.Base
 
             set { _driver = value; }
         }
+
+          public static Browser Browser { get; set; }      
     }
 }
