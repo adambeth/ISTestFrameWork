@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ISAutoFrameWork
+﻿namespace ISAutoFrameWork
 {
     public class Class1
     {
