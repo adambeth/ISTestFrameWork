@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
 namespace ISAutoFrameWork.Base
 {
@@ -16,5 +12,7 @@ namespace ISAutoFrameWork.Base
 
             set { _driver = value; }
         }
+
+          public static Browser Browser { get; set; }      
     }
 }
